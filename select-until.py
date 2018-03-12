@@ -8,7 +8,7 @@ from sublime import Region
 if sys.version_info[0] < 3:
     from edit import Edit
 else:
-    from SelectUntil.edit import Edit
+    from .edit import Edit
 
 
 # In ST3, view.find returns Region(-1,-1) if there are no occurrences.
